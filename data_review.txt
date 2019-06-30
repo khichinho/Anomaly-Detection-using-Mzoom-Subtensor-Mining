@@ -1,0 +1,7 @@
+user_approved_by / usr_cancelled_by
+is_fbf_flag
+refund_mode_options ?
+forward_unit_id != order_item_id
+user_lockin_state
+promise_breach
+rts_breach
