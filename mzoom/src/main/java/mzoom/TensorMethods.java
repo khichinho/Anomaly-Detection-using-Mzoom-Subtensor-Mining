@@ -59,6 +59,10 @@ public class TensorMethods {
             strToIntValue[dim] = new HashMap();
         }
         final BufferedReader br = new BufferedReader(new FileReader(path));
+        
+        // Skip first line of file and put a header when writing to the file:
+        // final String header = br.readLine();
+
         while(true){
             final String line = br.readLine();
             if(line==null)

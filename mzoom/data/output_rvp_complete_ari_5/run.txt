@@ -1,0 +1,40 @@
+input_path: data/rvp_complete_cleaned.csv
+output_path: data/output_rvp_complete_ari_5
+dimension: 41
+density_measure: ari
+num_of_blocks: 5
+
+importing the input tensor...
+input data were loaded. 25.773 seconds was taken.
+
+running the algorithm...
+
+Block: 1
+Volume: 29 X 29 X 53 X 51 X 1 X 2 X 1 X 1760 X 775 X 33 X 2 X 17 X 87 X 8 X 1 X 1 X 1 X 12 X 1 X 3 X 4 X 3 X 388 X 311 X 61 X 154 X 35 X 9 X 1 X 946 X 2204 X 1 X 2 X 1760 X 4 X 2 X 2 X 5 X 3 X 2 X 5
+Density: 5496.431292051545
+Mass: 1175566
+
+Block: 2
+Volume: 30 X 30 X 60 X 58 X 1 X 3 X 1 X 4139 X 2359 X 39 X 2 X 23 X 120 X 8 X 1 X 1 X 1 X 120 X 1 X 3 X 5 X 3 X 706 X 617 X 75 X 222 X 40 X 9 X 1 X 1730 X 2538 X 1 X 2 X 4137 X 4 X 2 X 2 X 5 X 4 X 3 X 5
+Density: 3928.718192975279
+Mass: 1639617
+
+Block: 3
+Volume: 30 X 30 X 67 X 63 X 1 X 3 X 1 X 7641 X 4357 X 40 X 2 X 24 X 133 X 8 X 1 X 1 X 1 X 1192 X 1 X 4 X 6 X 3 X 1103 X 995 X 93 X 291 X 47 X 10 X 1 X 2650 X 2557 X 1 X 2 X 7633 X 4 X 3 X 3 X 6 X 5 X 3 X 6
+Density: 2621.1872717248984
+Mass: 1855417
+
+Block: 4
+Volume: 30 X 30 X 103 X 101 X 1 X 3 X 1 X 9163 X 5443 X 39 X 2 X 26 X 139 X 9 X 1 X 1 X 1 X 3217 X 1 X 3 X 5 X 3 X 1413 X 1318 X 96 X 318 X 47 X 10 X 1 X 3692 X 2551 X 1 X 2 X 9157 X 4 X 2 X 3 X 5 X 4 X 3 X 5
+Density: 2296.666801970017
+Mass: 2070025
+
+Block: 5
+Volume: 30 X 30 X 178 X 188 X 1 X 3 X 1 X 7617 X 6111 X 41 X 2 X 26 X 141 X 9 X 1 X 1 X 1 X 3102 X 1 X 4 X 6 X 3 X 1425 X 1373 X 105 X 334 X 49 X 10 X 1 X 4753 X 2534 X 1 X 2 X 7668 X 4 X 3 X 4 X 6 X 5 X 3 X 6
+Density: 2031.1562473800407
+Mass: 1772704
+
+Running time: 8.717 seconds
+Diversity among blocks found: 0.6882421312209042
+Writing outputs...
+Outputs were written. 20.754 seconds was taken.
