@@ -1,0 +1,42 @@
+input_path: data/rvp_cleaned_problem.csv
+output_path: data/output_rvp_problem_ari_5_1_100
+dimension: 10
+density_measure: ari
+num_of_blocks: 5
+lower_bound: 1
+upper_bound: 100
+
+importing the input tensor...
+input data were loaded. 6.891 seconds was taken.
+
+running the algorithm...
+
+Block: 1
+Volume: 29 X 2 X 2 X 4 X 4 X 5 X 3 X 43 X 6 X 2
+Density: 12099.7
+Mass: 120997
+
+Block: 2
+Volume: 23 X 2 X 2 X 4 X 4 X 5 X 3 X 50 X 5 X 2
+Density: 5897.6
+Mass: 58976
+
+Block: 3
+Volume: 22 X 2 X 2 X 4 X 4 X 5 X 3 X 50 X 6 X 2
+Density: 4586.8
+Mass: 45868
+
+Block: 4
+Volume: 22 X 2 X 2 X 4 X 4 X 5 X 3 X 51 X 5 X 2
+Density: 3911.9
+Mass: 39119
+
+Block: 5
+Volume: 23 X 2 X 2 X 4 X 4 X 5 X 3 X 49 X 6 X 2
+Density: 3412.2000000000003
+Mass: 34122
+
+Running time: 4.469 seconds
+Diversity among blocks found: 0.6771702011814369
+Writing outputs...
+Outputs were written. 0.755 seconds was taken.

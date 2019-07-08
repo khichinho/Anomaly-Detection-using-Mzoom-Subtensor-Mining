@@ -1,0 +1,40 @@
+input_path: data/rvp_cleaned_problem.csv
+output_path: data/output_rvp_problem_geo_5
+dimension: 10
+density_measure: geo
+num_of_blocks: 5
+
+importing the input tensor...
+input data were loaded. 6.415 seconds was taken.
+
+running the algorithm...
+
+Block: 1
+Volume: 291 X 2 X 2 X 4 X 4 X 5 X 3 X 11281 X 13 X 1
+Density: 179836.4613588279
+Mass: 2070729
+
+Block: 2
+Volume: 1019 X 2 X 2 X 5 X 4 X 5 X 7 X 17094 X 16 X 2
+Density: 157441.72861883018
+Mass: 2608870
+
+Block: 3
+Volume: 1233 X 2 X 2 X 4 X 4 X 5 X 5 X 9079 X 22 X 3
+Density: 118258.40409876537
+Mass: 1905893
+
+Block: 4
+Volume: 1111 X 3 X 4 X 6 X 6 X 6 X 8 X 2433 X 21 X 2
+Density: 63960.622207546876
+Mass: 1104322
+
+Block: 5
+Volume: 45 X 2 X 3 X 4 X 4 X 5 X 6 X 82 X 8 X 4
+Density: 2068.5431263623013
+Mass: 14751
+
+Running time: 2.212 seconds
+Diversity among blocks found: 0.7973507840256593
+Writing outputs...
+Outputs were written. 16.334 seconds was taken.
